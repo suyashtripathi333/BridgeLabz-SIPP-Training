@@ -9,6 +9,12 @@ class IceCream{
 		this.netsales = netsales;
 	}
 	
+	
+	public IceCream() {
+		// TODO Auto-generated constructor stub
+	}
+
+
 	void display() {
         System.out.println("Flavour: " + flavour + ", Net Sales: " + netsales);
 	}
@@ -41,7 +47,7 @@ public class IceCreamShop {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 // Create ice cream flavors manually (no collections)
+		 IceCream sc = new IceCream();
         IceCream[] flavours = new IceCream[5];
         flavours[0] = new IceCream("Vanilla", 120);
         flavours[1] = new IceCream("Chocolate", 200);
